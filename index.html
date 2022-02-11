@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./Images/favicon-32x32.png" type="image/x-icon">
+    <title>Order Summary Component</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ========Order Card Summary Started======== -->
+    <div class="card-summary h-screen flex justify-center items-center">
+      <div class="main-card lg:w-1/3 w-fit mx-5 lg:mx-0 shadow-xl rounded-2xl">
+        <div class="hero-img w-full">
+          <img
+            class="rounded-t-2xl w-full"
+            src="Images/illustration-hero.svg"
+            alt="Hero Image"
+          />
+        </div>
+        <div class="order-summary text-center bg-white p-5 rounded-b-2xl pb-9">
+          <!-- ========Card Title======== -->
+          <h1 class="font-bold text-2xl py-5">Order Summary</h1>
+          <!-- =======Card Subtitle======= -->
+          <p class="pb-5 leading-relaxed text-sm md:w-72 sm:w-72 mx-auto">
+            You can now listen to millions of songs, audio-books, and prodcasts
+            on any device anywhere you like!
+          </p>
+          <!-- ========Pricing Plan Card======= -->
+          <div
+            class="flex items-center justify-between md:px-8 py-4 my-2 text-sm bg-gray-100 px-4 rounded-lg"
+          >
+            <div class="flex items-center space-x-3">
+              <img class="w-12" src="./Images/icon-music.svg" alt="" />
+              <div>
+                <h1 class="font-bold">Annual Plan</h1>
+                <!-- //// Plan Price //// -->
+                <p>$55.99/year</p>
+              </div>
+            </div>
+            <!-- =======Change Price Plan Link======= -->
+            <div>
+              <a
+                class="font-bold underline text-indigo-600 hover:text-indigo-400 duration-500"
+                href="#"
+                >Change</a
+              >
+            </div>
+          </div>
+          <!-- ========Proceed Payment Button======== -->
+          <button
+            class="w-full bg-indigo-600 hover:bg-indigo-500 duration-700 hover:shadow-1xl rounded-lg py-3 text-white my-6 shadow-lg shadow-gray-400"
+          >
+            Proceed to Payment
+          </button>
+          <!-- =========Cencel Order Button======== -->
+          <a class="font-bold pb-6 pt-1 hover:underline" href="#"
+            >Cancel Order</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- ========Order Summary Card End======== -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </body>
+</html>
