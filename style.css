@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
 body{
     background-image: url("./Images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
